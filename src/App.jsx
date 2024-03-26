@@ -5,6 +5,7 @@ import Studying from "./components/Studying"
 import Research from "./components/Research"
 import GlobalConnections from "./components/GlobalConnections"
 import Services from "./components/Services"
+import Footer from "./components/Footer"
 
 const App = () => {
   return (
@@ -16,6 +17,7 @@ const App = () => {
       <Research />
       <GlobalConnections />
       <Services />
+      <Footer />
     </div>
   )
 }
