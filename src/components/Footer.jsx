@@ -9,8 +9,8 @@ import fuSeagel from '../assets/fu-siegel-web-schwarz-684a4d11be3c3400d8906a344a
 
 const Footer = () => {
   return (
-    <div className='mx-72'>
-        <div className='font-sourceSans flex justify-between px-12'>
+    <div className='mx-3 md:mx-72'>
+        <div className='font-sourceSans  grid sm:grid-cols-2 gap-7 md:flex justify-between px-12'>
             <div>
                 <h1 className='text-xl py-3'>Information for</h1>
                 <div className='flex pt-2'>

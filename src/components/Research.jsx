@@ -3,10 +3,10 @@ import supraFabImage from '../assets/supra-fab.jpeg'
 
 const Research = () => {
   return (
-    <div className='mx-72'>
-        <div className='bg-gray-200 mt-28'>
-            <div className='p-16 flex gap-8'>
-                <div className='w-1/3 font-sourceSans text-[18px] leading-6'>
+    <div className='mx-3 md:mx-72'>
+        <div className='mt-10 md:mt-28'>
+            <div className='p-4 md:p-16 grid md:flex gap-8'>
+                <div className='w-full md:w-1/3 font-sourceSans text-[18px] leading-6'>
                     <h1 className='font-sourceSans text-4xl font-bold'>Research</h1>
                     <p className='text-[18px] leading-7 py-10'>
                     Researchers at Freie Universität Berlin benefit from access to a wide range of academic networks around the world. They produce groundbreaking results and set tomorrow’s research trends through interdisciplinary work with an international focus. Freie Universität Berlin is among the select few German institutions of higher education supported by the German federal and state governments’ Excellence Strategy.
@@ -17,7 +17,7 @@ const Research = () => {
                             Our research profile</p>
                     </div>
                 </div>
-                <div className='w-2/3'>
+                <div className='w-full md:w-2/3'>
                     <img src={supraFabImage} alt="supra fab image" />
                     <div className='text-[#666] text-xs font-sourceSans py-2'>
                         <p className=''>Nanoscale study of cell boundaries: The new SupraFAB Building on the Freie Universität Berlin campus houses research on the properties and </p>
