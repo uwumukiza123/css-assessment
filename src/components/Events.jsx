@@ -55,11 +55,11 @@ const Events = () => {
                             <div className='rounded-full flex items-center justify-center w-10 h-10 border border-black'>
                                 <img className='w-6' src={leftArrow} alt="right arrow icon" />
                             </div>
-                        <span>1 / 18</span>
-                        <div className='rounded-full flex items-center justify-center w-10 h-10 border border-black'>
-                                <img className='w-6' src={rightArrowIcon} alt="right arrow icon" />
+                            <div className='w-14'>1 / 18</div>
+                            <div className='rounded-full flex items-center justify-center w-10 h-10 border border-black'>
+                                    <img className='w-6' src={rightArrowIcon} alt="right arrow icon" />
+                                </div>
                             </div>
-                        </div>
                     </div>
                 </div>
             </div>
