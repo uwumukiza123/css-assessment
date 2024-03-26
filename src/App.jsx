@@ -4,6 +4,7 @@ import Events from "./components/Events"
 import Studying from "./components/Studying"
 import Research from "./components/Research"
 import GlobalConnections from "./components/GlobalConnections"
+import Services from "./components/Services"
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
       <Studying />
       <Research />
       <GlobalConnections />
+      <Services />
     </div>
   )
 }
