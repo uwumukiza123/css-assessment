@@ -7,7 +7,7 @@ const Nav = () => {
   return (
     <div>
         <div className='flex justify-between md:justify-around text-[15px] font-sourceSans mt-1 md:mt-5 text-gray-900'>
-            <div>
+            <div className='mx-0 md:mx-20'>
                 <img src={favicon} alt="favicon" className='w-72'/>
             </div>
             <div>
