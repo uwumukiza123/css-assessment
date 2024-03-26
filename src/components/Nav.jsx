@@ -43,15 +43,17 @@ const Nav = () => {
         </div>
 
         <div className='mx-72'>
-            <ul className='flex gap-4 pt-4 pb-2 font-medium text-xl mx-3'>
-                <a href="/" ><li className='hover:bg-[#CCFF00]'>ABOUT</li></a>
-                <a href="/"><li className='hover:bg-[#CCFF00]'>EDUCATION</li></a>
-                <a href="/"><li className='hover:bg-[#CCFF00]'>RESEARCH</li></a>
-                <a href="/"><li className='hover:bg-[#CCFF00]'>DEPARTMENTS</li></a>
-                <a href="/"><li className='hover:bg-[#CCFF00]'>INTERNATIONAL</li></a>
-                <a href="/"><li className='hover:bg-[#CCFF00]'>EXCELLENCE STRATEGY</li></a>
+            <ul className='flex gap-4 pt-4 h-10 items-center font-medium text-xl mx-3'>
+                <a href="/" ><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>ABOUT</li></a>
+                <a href="/"><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>EDUCATION</li></a>
+                <a href="/"><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>RESEARCH</li></a>
+                <a href="/"><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>DEPARTMENTS</li></a>
+                <a href="/"><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>INTERNATIONAL</li></a>
+                <a href="/"><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>EXCELLENCE STRATEGY</li></a>
             </ul>
-            <div className='h-1 bg-black'></div>
+            <div className='pt-4'>
+                <div className='h-1 bg-black'></div>
+            </div>
         </div>
     </div>
   )
