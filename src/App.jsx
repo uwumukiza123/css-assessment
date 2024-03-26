@@ -2,6 +2,7 @@ import Nav from "./components/Nav"
 import Landing from "./components/Landing"
 import Events from "./components/Events"
 import Studying from "./components/Studying"
+import Research from "./components/Research"
 
 const App = () => {
   return (
@@ -10,6 +11,7 @@ const App = () => {
       <Landing />
       <Events />
       <Studying />
+      <Research />
     </div>
   )
 }
