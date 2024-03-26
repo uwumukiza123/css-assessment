@@ -1,8 +1,10 @@
-import React from 'react'
+import Nav from "./components/Nav"
 
 const App = () => {
   return (
-    <div className='bg-gray-600 text-white text-6xl'>Hello world</div>
+    <div>
+      <Nav/>
+    </div>
   )
 }
 
