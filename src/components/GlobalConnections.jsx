@@ -11,13 +11,13 @@ const GlobalConnections = () => {
                     <p className='text-[18px] leading-7 py-10'>
                     Freie Universität Berlin is one of Europe’s leading research universities. Our scope is global – people from more than 100 countries around the world work and study at Freie Universität. Our alumni actively help to shape the world today, and opportunities to study and work abroad are woven into our university culture. At Freie Universität Berlin, this international focus is reflected in our research, teaching, and day-to-day lives. It has been an integral part of our history since 1948.
                     </p>
-                    <div className='bg-[#004659] text-white h-16 font-sourceSans w-72 text-[21px] flex items-center gap-2 justify-center'>
+                    <div className='bg-[#004659] text-white h-16 font-sourceSans text-[21px] flex items-center gap-2 justify-center'>
                         <img src={chevronRight} alt="chevron right icon" />
                         <p>Discover our international network</p>
                     </div>
                 </div>
                 <div className='w-2/3'>
-                    <img src={universityImage} alt="supra fab image" />
+                    <img src={universityImage} alt="university image" />
                     <div className='text-[#666] text-xs font-sourceSans py-2 w-2/3'>
                         <p>People from more than 100 countries around the world work and study at Freie Universität Berlin
                             Image Credit: Bernd Wannenmacher</p>
