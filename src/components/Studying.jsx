@@ -3,7 +3,7 @@ import studierImage from '../assets/studier.jpeg'
 
 const Studying = () => {
   return (
-    <div className='mx-3 md:mx-72'>
+    <div className='mx-3 md:mx-64'>
         <div className='bg-[#004659] text-white h-16 font-sourceSans text-[21px] flex items-center gap-2 justify-center w-10/12 md:w-1/2 ml-0 md:ml-8'>
             <img src={chevronRight} alt="chevron right icon" />
             <p>Newsroom: The latest news from Freie Universität Berlin</p>

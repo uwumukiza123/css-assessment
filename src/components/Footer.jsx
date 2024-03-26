@@ -9,8 +9,8 @@ import fuSeagel from '../assets/fu-siegel-web-schwarz-684a4d11be3c3400d8906a344a
 
 const Footer = () => {
   return (
-    <div className='mx-3 md:mx-72'>
-        <div className='font-sourceSans  grid sm:grid-cols-2 gap-7 md:flex justify-between px-12'>
+    <div className='mx-0 md:mx-64'>
+        <div className='font-sourceSans grid sm:grid-cols-2 gap-7 md:flex justify-between px-4 md:px-12'>
             <div>
                 <h1 className='text-xl py-3'>Information for</h1>
                 <div className='flex pt-2'>
@@ -129,9 +129,9 @@ const Footer = () => {
         </div>
         <div className='h-[1px] bg-black mt-20'></div>
 
-        <div className='flex gap-16 py-20 px-12 items-center'>
-            <img className='w-40' src={fuSeagel} alt="fu seagel image" />
-            <p className='font-sourceSans text-sm leading-5 w-[500px]'>The Latin words veritas, justitia, and libertas, which frame the seal of Freie Universität Berlin, stand for the values that have defined the academic ethos of Freie Universität since its founding in December 1948.</p>
+        <div className='flex gap-4 md:gap-16 py-20 px-2 md:px-12 items-center'>
+            <img className='w-28 md:w-40' src={fuSeagel} alt="fu seagel image" />
+            <p className='font-sourceSans text-sm leading-5 md:w-[500px]'>The Latin words veritas, justitia, and libertas, which frame the seal of Freie Universität Berlin, stand for the values that have defined the academic ethos of Freie Universität since its founding in December 1948.</p>
         </div>
     </div>
   )

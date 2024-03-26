@@ -6,8 +6,8 @@ import menuIcon from '../assets/menuIcon.svg'
 const Nav = () => {
   return (
     <div>
-        <div className='flex justify-between md:justify-around text-[15px] font-sourceSans mt-1 md:mt-5 text-gray-900'>
-            <div className='mx-0 md:mx-20'>
+        <div className='flex justify-between text-[15px] font-sourceSans mx-0 md:mx-52 mt-1 md:mt-5 text-gray-900'>
+            <div className=''>
                 <img src={favicon} alt="favicon" className='w-72'/>
             </div>
             <div>
@@ -31,7 +31,7 @@ const Nav = () => {
                     <select className='border px-2 border-gray-300 w-36 text-xs h-8 md:block hidden'>
                         <option value="">Information for</option>
                     </select>
-                    <div className='border items-center p-0 md:px-2 border-none md:border-gray-300 w-16 md:w-52 text-xs h-8 flex'>
+                    <div className='md:border items-center p-0 md:px-2 md:border-gray-300 w-16 md:w-52 text-xs h-8 flex'>
                     <input type="text" placeholder='search with google...'className='md:block hidden'/>
                         <img src={searchIcon} alt="search icon" /> 
                         <img className='md:hidden block' src={dots} alt="dots" /> 
@@ -41,11 +41,11 @@ const Nav = () => {
             </div>
         </div>
 
-        <div className=' bg-gray-100 h-8 text-lg mx-1 md:mx-72 mt-6'>
+        <div className=' bg-gray-100 h-8 text-lg mx-1 md:mx-52 md:mr-48 mt-6'>
             <h1 className='mx-3'>FREIE UNIVERSITÄT BERLIN</h1>
         </div>
 
-        <div className='mx-1 md:mx-72'>
+        <div className='mx-1 md:mx-52'>
             <ul className='hidden md:flex gap-4 pt-4 h-10 items-center font-medium text-xl mx-3'>
                 <a href="/" ><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>ABOUT</li></a>
                 <a href="/"><li className='hover:bg-[#CCFF00] hover:w-40 hover:h-8'>EDUCATION</li></a>

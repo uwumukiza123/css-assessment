@@ -3,7 +3,7 @@ import supraFabImage from '../assets/supra-fab.jpeg'
 
 const Research = () => {
   return (
-    <div className='mx-3 md:mx-72'>
+    <div className='mx-3 md:mx-64'>
         <div className='mt-10 md:mt-28'>
             <div className='p-4 md:p-16 grid md:flex gap-8'>
                 <div className='w-full md:w-1/3 font-sourceSans text-[18px] leading-6'>
