@@ -1,7 +1,7 @@
 import chevronRight from '../assets/rightChevron.svg'
 import studierImage from '../assets/studier.jpeg'
 
-const Studying = () => {
+const Research = () => {
   return (
     <div className='mx-72'>
         <div className='bg-[#004659] text-white h-16 font-sourceSans text-[21px] flex items-center gap-2 justify-center w-1/2 ml-8'>
@@ -35,4 +35,4 @@ const Studying = () => {
   )
 }
 
-export default Studying
+export default Research
